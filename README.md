@@ -2,7 +2,7 @@
 
 A modern, responsive booking platform for IVY Hair Studio built with Next.js, featuring a beautiful UI and seamless appointment booking experience.
 
-## 🌟 Features
+## Features
 
 - **Modern Design**: Clean, responsive UI built with Tailwind CSS and shadcn/ui components
 - **Appointment Booking**: Complete booking system with service selection, date/time picker, and branch selection
@@ -10,7 +10,7 @@ A modern, responsive booking platform for IVY Hair Studio built with Next.js, fe
 - **Responsive**: Optimized for desktop, tablet, and mobile devices
 - **Form Handling**: Robust form validation with React Hook Form and Zod
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 - **Framework**: Next.js 15.3.2 with App Router
 - **Language**: TypeScript
@@ -22,7 +22,7 @@ A modern, responsive booking platform for IVY Hair Studio built with Next.js, fe
 - **Icons**: Lucide React
 - **Package Manager**: Yarn 3.6.4
 
-## 📋 Prerequisites
+## Prerequisites
 
 Before you begin, ensure you have the following installed:
 
@@ -38,7 +38,7 @@ yarn --version
 git --version
 ```
 
-## 🚀 Installation & Setup
+## Installation & Setup
 
 1. **Clone the repository**
 
@@ -85,7 +85,7 @@ git --version
 - `yarn format` - Format code with Prettier
 - `yarn format:check` - Check code formatting without making changes
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 ├── app/                    # Next.js App Router pages
@@ -109,7 +109,7 @@ git --version
 └── public/               # Static assets
 ```
 
-## 🎨 UI Components
+## UI Components
 
 This project uses [shadcn/ui](https://ui.shadcn.com/) components built on top of Radix UI primitives. The components are:
 
@@ -118,7 +118,7 @@ This project uses [shadcn/ui](https://ui.shadcn.com/) components built on top of
 - Built with Tailwind CSS
 - TypeScript ready
 
-## 🔐 Authentication
+## Authentication
 
 User authentication is handled by [Clerk](https://clerk.com/), providing:
 
@@ -127,7 +127,7 @@ User authentication is handled by [Clerk](https://clerk.com/), providing:
 - User profile management
 - Session management
 
-## 📱 Responsive Design
+## Responsive Design
 
 The application is fully responsive and optimized for:
 
@@ -135,7 +135,7 @@ The application is fully responsive and optimized for:
 - **Tablet**: Touch-optimized interface
 - **Mobile**: Streamlined mobile experience
 
-## 🚀 Deployment
+## Deployment
 
 1. **Build the application**
 
@@ -154,7 +154,7 @@ For deployment on platforms like Vercel, Netlify, or similar:
 - Set environment variables
 - The platform will automatically build and deploy
 
-## 🤝 Contributing
+## Contributing
 
 1. Fork the repository
 2. Create a feature branch (`git checkout -b feature/amazing-feature`)
