@@ -76,7 +76,7 @@ git --version
 
    The application will be available at [http://localhost:3001](http://localhost:3001)
 
-## 🔧 Available Scripts
+## Available Scripts
 
 - `yarn dev` - Start the development server with Turbopack on port 3001
 - `yarn build` - Build the application for production
