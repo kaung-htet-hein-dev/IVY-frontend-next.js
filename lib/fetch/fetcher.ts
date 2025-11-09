@@ -17,8 +17,7 @@ export interface ServicesApiResponse extends ApiResponse<Service[]> {
 export async function fetcher<T>(endpoint: string, options?: RequestInit): Promise<ApiResponse<T>> {
   try {
     const res = await fetch(BASE_URL + endpoint, {
-      cache: 'force-cache',
-      next: { revalidate: 1200 },
+      cache: 'no-store',
       headers: {
         'Content-Type': 'application/json',
         ...options?.headers,
